@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/png" href="imgs/genji.png"/>
+    <title>Jérémy Castelain - Portfolio</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg2"></div>
+
+    <div class="container">
+        <div id="left">
+            <h1>Jérémy CASTELAIN</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat consequatur doloribus illum nesciunt quas. Veritatis repellat error nisi ut, doloribus soluta vitae dicta necessitatibus facere, impedit temporibus! Fuga, placeat doloribus.</p>
+        </div>
+
+        <div id="right">
+            <ul>
+                <li>
+                    <img src="img/about-me.svg" href="#about-me">
+                    <a href="#about-me">
+                    <span>
+                        <strong>À propos de moi</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </span>
+                    </a>
+                </li>
+            
+                <li>
+                    <img src="img/skills.svg">
+                    <a href="#skills">
+                    <span>
+                        <strong>Compétences</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </span>
+                    </a>
+                </li>
+            
+                <li>
+                    <img src="img/contact.svg">
+                    <a href="#contact">
+                    <span>
+                        <strong>Me contacter</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Hidden contents -->
+    <div id="about-me" class="overlay">
+        <div class="popup">
+            <h2>A propos de moi</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p>Je suis développeur alternant au sein de la société GPSA (Groupement Professionnel des Sociétés d'Assurance) et de l'école ESGI (Ecole Supérieure de Génie Informatique).</p>
+                <em>Je recherche actuellement un poste en CDD/CDI pour la rentrée de septembre 2018.</em>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="overlay">
+            <div class="popup">
+                <h2>Compétences</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content pdf">
+                    <object data="img/CV - Jérémy CASTELAIN.pdf"></object>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="overlay">
+                <div class="popup">
+                    <h2>Me contacter</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Thank to pop me out of that button, but now i'm done so you can close this window.
+                    </div>
+                </div>
+            </div>
+    <!-- End Hidden contents-->
+</body>
+</html>
