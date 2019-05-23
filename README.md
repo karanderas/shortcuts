@@ -27,11 +27,6 @@
         "@subpackage dlbi-sodexo-theme"
     ],
 
-    "phpformatter.composer": true,
-    "phpformatter.arguments": [
-        "--rules=@Wordpress"
-    ],
-
     "phpcs.enable": true,
     "phpcs.standard": "Wordpress",
     "phpcs.executablePath": "/Applications/PHP_CodeSniffer/bin/phpcs",
@@ -74,4 +69,5 @@
     "explorer.sortOrder": "type",
 
     "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
 }
