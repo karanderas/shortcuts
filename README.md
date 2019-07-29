@@ -5,6 +5,13 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.colorTheme": "Material Theme Darker High Contrast",
 
+    "editor.suggestSelection": "first",
+    "editor.smoothScrolling": true,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+
     "window.zoomLevel": 0,
 
     "gitlens.advanced.messages": {
@@ -48,19 +55,11 @@
     "diffEditor.renderSideBySide": false,
 
     "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
     },
     "[scss]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-
-    "editor.suggestSelection": "first",
-    "editor.smoothScrolling": true,
-    "editor.cursorStyle": "block",
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.cursorBlinking": "smooth",
-    "editor.fontLigatures": true,
-
 
     "files.autoSave": "onFocusChange",
     "files.trimFinalNewlines": true,
@@ -69,5 +68,14 @@
     "explorer.sortOrder": "type",
 
     "eslint.autoFixOnSave": true,
-    "editor.formatOnSave": true,
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "emmet.preferences": {
+        "filter.commentAfter": "<!-- /[#ID][.CLASS] -->",
+    },
+    "emmet.syntaxProfiles": {
+        "html": {
+            "filters": "html, c"
+        }
+    },
 }
